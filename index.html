@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Makeup Designs by Lorrie</title>
+<link href="https://fonts.googleapis.com/css?family=Jura|Lobster|Playfair+Display" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+
+<div id="navbar">
+<div class="nav">
+
+<ul>
+	<li><a href="#home">Home</a></li>
+	<li><a href="#services">Services</a></li>
+	<li><a href="#blog">Blog</a></li>
+	<li><a href="#shop">Shop</a></li>
+	<li><a href="#contact">Contact</a></li>
+	<li><a href="#about">About</a></li>
+</ul>
+	
+</div>
+
+<div class="nav2">
+	<ul>
+	
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-pinterest"></a>
+<a href="#" class="fa fa-tumblr"></a>
+		
+	</ul>
+</div>
+	</div>
+	
+<div id="header">
+<h1>Makeup Designs</h1>
+	<h3>by<span class="red"> Lorrie</span></h3>
+	</div>
+	
+	<div class="animate">
+  <img class="mySlides w3-animate-fading" src="assets/pic01.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="assets/pic02.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="assets/pic03.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="assets/pic04.jpg" style="width:100%">
+	
+		
+	</div>
+	
+	<div>
+		<h2>Services</h2>
+		<p>My speciality is clean beauty. I love to create looks to enhance, but look natural. I'm booked primarily for print, tv commercial and live performance projects and love to do weddings when I can. </p>
+		
+	  <h3>For print, tv commerial and live performance projects, I offer full day and 1/2 day rates</h3>
+	  <h3>Personal makeup application &amp;consultation</h3>
+	  <h3>Bridal packages</h3>
+	  <h3></h3>
+	  
+		
+		
+	</div>
+	
+	<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+}
+</script>
+	
+</body>
+</html>
