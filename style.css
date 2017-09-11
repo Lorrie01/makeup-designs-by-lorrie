@@ -5,7 +5,7 @@ html, body{
 	background-color: #ffffff;
 }
 
-#header {
+#home {
 	margin-top: 45px;
 	width:100%;
 	clear: both;
@@ -44,6 +44,7 @@ h3{
 	position: fixed; 
     top: 0; 
 	clear:both;
+	z-index: 1;
 	 
 }
 
@@ -208,7 +209,7 @@ hr:after {
 	width: 200px;
 }
 
-.blog{
+#blog{
 width: 100%;
 padding-bottom: 5px;
 margin-bottom: 10px;
@@ -217,7 +218,7 @@ height: 400px;
 	
 }
 
-.contact{
+#contact{
 	width: 100%;
 	padding-bottom: 5px;
 	margin-top: 20px;
@@ -257,3 +258,4 @@ height: 400px;
 	width:200px;
 	
 }
+
